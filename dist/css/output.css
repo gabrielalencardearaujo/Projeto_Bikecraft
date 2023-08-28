@@ -533,13 +533,3 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
-
-.bg-cinza-8 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(92 92 92 / var(--tw-bg-opacity));
-}
-
-.text-9xl {
-  font-size: 8rem;
-  line-height: 1;
-}
