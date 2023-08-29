@@ -14,3 +14,13 @@
 .info-principal {
   height: 920px;
 }
+
+.detalhe-decoracao:before {
+  content: '';
+  display: inline-block;
+  background: linear-gradient(to bottom, #FFBB00, #EBAA13, #BF7F00);
+  width: 24px;
+  height: 8px;
+  margin-right: 8px;
+  margin-bottom: 4px;
+}
