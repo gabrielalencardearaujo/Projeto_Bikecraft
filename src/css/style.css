@@ -15,6 +15,10 @@
   height: 920px;
 }
 
+img[alt="ferramentas-manuais"] {
+  height: 1222px;
+}
+
 .detalhe-decoracao:before {
   content: '';
   display: inline-block;
@@ -23,4 +27,13 @@
   height: 8px;
   margin-right: 8px;
   margin-bottom: 4px;
+}
+
+/* Aplicar Linear Gradiente no texto */
+.text-gradient {
+  background: -webkit-linear-gradient(#FFBB00, #BF7F00);
+  -webkit-background-clip : text;
+  -webkit-text-fill-color : transparent;
+
+  border-bottom: 4px solid #BF7F00;
 }
