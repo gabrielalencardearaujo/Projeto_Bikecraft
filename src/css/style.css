@@ -57,13 +57,20 @@ img[alt="ferramentas-manuais"] {
 }
 
 .aspas1 {
-  top: 45%;
+  top: 50%;
   left: -40px;
   transform: rotate(180deg);
 }
 
 
 .aspas2 {
-  bottom: 0;
-  right: 0;
+  bottom: 20px;
+  right: -40px;
+}
+
+.lista-vantagens li::before {
+  content: '✓';
+  margin-right: 18px;
+  color: #FFBB00;
+  font-weight: bold;
 }

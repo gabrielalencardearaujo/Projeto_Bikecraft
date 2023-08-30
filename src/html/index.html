@@ -115,53 +115,61 @@
 
   <section class="feedback-cliente grid grid-cols-2 mt-52 bg-primary-2">
     <img class="" src="../img/feedback.png" alt="foto-cliente">
-    <div class="flex flex-col w-5/6 m-auto gap-48 cliente">
+    <div class="flex flex-col w-4/6 m-auto gap-48 cliente">
       <h3 class="text-right font-poppins text-3xl text-primary-3">nossos clientes<span class="text-primary-5">.</span></h3>
       <img class="aspas1" src="../icons/aspas.svg" alt="">
       <img class="aspas2" src="../icons/aspas.svg" alt="">
       <div class="flex flex-col gap-10">
-        <h3 class="text-right font-poppins text-primary-4 text-3xl">Ana Julia</h3>
-        <p class="font-merriweather font-bold italic text-5xl text-primary-5 texto-cliente">Pedalar sempre foi a minha paixão, o que o pessoal da Bikcraft fez foi intensificar o meu amor por esta atividade. Recomendo à todos que amo.</p>
+        <h3 class="text-right font-poppins text-primary-4 text-3xl font-medium">Ana Julia</h3>
+        <p class="font-merriweather font-bold italic text-4xl text-primary-5 texto-cliente">Pedalar sempre foi a minha paixão, o que o pessoal da Bikcraft fez foi intensificar o meu amor por esta atividade. Recomendo à todos que amo.</p>
       </div>
     </div>
   </section>
 
-  <section class="planos-seguros">
-    <h2>seguros.</h2>
-    <div class="plano-prata">
-      <h3>Prata</h3>
-      <div class="preco">
-        <h3><sup>r$</sup>99</h3>
-        <p>mensal</p>
-      </div>
-      <div class="lista-vantagens">
-        <ul>
-          <li>Duas trocas por ano.</li>
-          <li>Assistencia tecnica.</li>
-          <li>Suporte  8h as 22h.</li>
-          <li>Cobertura estadual.</li>
-        </ul>
-      </div>
-      <button>ASSINE JA</button>
-    </div>
+  <section class="planos-seguro bg-cinza-11 h-screen">
+    <h2 class= "h-16 w-9/12 mx-auto text-cinza-2 font-bold font-poppins text-5xl mt-36 mb-10">seguros<span class="text-primary-1">.</span></h2>
 
-    <div class="plano-ouro">
-      <h3>Ouro</h3>
-      <div class="preco">
-        <h3><sup>r$</sup>199</h3>
-        <p>mensal</p>
+    <div class="grid grid-cols-2 justify-center gap-10">
+      <div class="plano-prata bg-cinza-12 grid grid-cols-1 justify-center w-1/2 m-auto p-10 text-cinza-1 rounded-xl">
+        <div class="valor-plano flex justify-between font-poppins font-bold mb-10">
+          <h3 class="text-3xl text-cinza-5 uppercase">Prata</h3>
+          <div class="preco">
+            <h3 class="text-4xl"><sup>r$</sup>99</h3>
+            <p class="text-base text-cinza-5 text-right">mensal</p>
+          </div>
+        </div>
+        <div class="lista-vantagens mb-8">
+          <ul class="font-medium font-roboto text-2xl text-start leading-10 flex flex-col gap-5">
+            <li>Duas trocas por ano.</li>
+            <li>Assistencia tecnica.</li>
+            <li>Suporte  8h as 22h.</li>
+            <li>Cobertura estadual.</li>
+          </ul>
+        </div>
+       
+        <button class="content-end px-14 rounded-md py-4 bg-cinza-5 font-poppins text-2xl text-cinza-9 tracking-wider font-bold justify-self-end">ASSINE JA</button>
       </div>
-      <div class="lista-vantagens">
-        <ul>
-          <li>Quatro trocas por ano.</li>
-          <li>Assistencia especial.</li>
-          <li>Suporte 24h.</li>
-          <li>Cobertura nacional.</li>
-          <li>Desconto em parceiros.</li>
-          <li>Acesso ao clube BikeCraft.</li>
-        </ul>
+
+      <div class="plano-ouro bg-cinza-12 grid grid-cols-1 justify-center w-3/5 p-14 text-cinza-1 rounded-xl">
+        <div class="valor-plano flex justify-between font-poppins font-bold mb-12">
+          <h3 class="text-4xl text-primary-1 uppercase">Ouro</h3>
+          <div class="preco">
+            <h3 class="text-5xl"><sup>r$</sup>199</h3>
+            <p class="text-base text-cinza-5 text-right">mensal</p>
+          </div>
+        </div>
+        <div class="lista-vantagens mb-12">
+          <ul class="font-medium font-roboto text-2xl text-start leading-10 flex flex-col gap-6">
+            <li>Quatro trocas por ano.</li>
+            <li>Assistencia especial.</li>
+            <li>Suporte 24h.</li>
+            <li>Cobertura nacional.</li>
+            <li>Desconto em parceiros.</li>
+            <li>Acesso ao clube BikeCraft.</li>
+          </ul>
+        </div>
+        <button class="content-end px-14 rounded-md py-4 bg-primary-1 font-poppins text-2xl text-primary-5 tracking-wider font-bold justify-self-end">ASSINE JA</button>
       </div>
-      <button>ASSINE JA</button>
     </div>
   </section>
 
