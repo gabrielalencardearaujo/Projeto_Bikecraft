@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@1&display=swap');
 
 @tailwind variants;
 @tailwind base;
@@ -12,7 +14,7 @@
 }
 
 .info-principal {
-  height: 920px;
+  height: 1040px;
 }
 
 img[alt="ferramentas-manuais"] {
@@ -36,4 +38,32 @@ img[alt="ferramentas-manuais"] {
   -webkit-text-fill-color : transparent;
 
   border-bottom: 4px solid #BF7F00;
+}
+
+.texto-cliente {
+  line-height: 64px;
+}
+
+.cliente {
+  position: relative;
+}
+
+.aspas1, .aspas2 {
+  display: inline-block;
+  width: 40px;
+  position: absolute;
+   
+  z-index: 2;
+}
+
+.aspas1 {
+  top: 45%;
+  left: -40px;
+  transform: rotate(180deg);
+}
+
+
+.aspas2 {
+  bottom: 0;
+  right: 0;
 }
