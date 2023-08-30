@@ -716,10 +716,6 @@ video {
   width: 50%;
 }
 
-.w-10{
-  width: 2.5rem;
-}
-
 .w-3\/5{
   width: 60%;
 }
@@ -742,6 +738,10 @@ video {
 
 .w-64{
   width: 16rem;
+}
+
+.w-8{
+  width: 2rem;
 }
 
 .w-9\/12{
@@ -803,6 +803,10 @@ video {
 
 .gap-10{
   gap: 2.5rem;
+}
+
+.gap-12{
+  gap: 3rem;
 }
 
 .gap-16{
@@ -1063,7 +1067,11 @@ video {
 }
 
 .info-principal {
-  height: 1040px;
+  height: 920px;
+}
+
+.tecnologia-avancada {
+  height: calc(100vh + 100px);
 }
 
 img[alt="ferramentas-manuais"] {

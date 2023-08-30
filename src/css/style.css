@@ -14,7 +14,11 @@
 }
 
 .info-principal {
-  height: 1040px;
+  height: 920px;
+}
+
+.tecnologia-avancada {
+  height: calc(100vh + 100px);
 }
 
 img[alt="ferramentas-manuais"] {
