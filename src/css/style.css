@@ -34,8 +34,8 @@ img[alt="ferramentas-manuais"] {
 /* Aplicar Linear Gradiente no texto */
 .text-gradient {
   background: -webkit-linear-gradient(#FFBB00, #BF7F00);
-  -webkit-background-clip : text;
-  -webkit-text-fill-color : transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 
   border-bottom: 4px solid #BF7F00;
 }
