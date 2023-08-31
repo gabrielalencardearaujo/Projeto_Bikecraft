@@ -570,6 +570,18 @@ video {
   grid-column: 1 / -1;
 }
 
+.col-span-8{
+  grid-column: span 8 / span 8;
+}
+
+.col-span-7{
+  grid-column: span 7 / span 7;
+}
+
+.col-span-6{
+  grid-column: span 6 / span 6;
+}
+
 .col-start-2{
   grid-column-start: 2;
 }
