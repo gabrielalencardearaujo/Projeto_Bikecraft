@@ -92,3 +92,12 @@ img[alt="ferramentas-manuais"] {
   top: 20px;
   color: blue;
 }
+
+.bicicletas .detalhe-decoracao:before {
+  content: '';
+  display: block;
+  background: linear-gradient(to bottom, #FFBB00, #EBAA13, #BF7F00);
+  width: 24px;
+  height: 8px;
+  margin-bottom: 8px;
+}
