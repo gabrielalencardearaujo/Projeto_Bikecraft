@@ -620,6 +620,16 @@ video {
   margin-bottom: 15rem;
 }
 
+.my-8{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.my-10{
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
 .-mt-24{
   margin-top: -6rem;
 }
@@ -933,6 +943,10 @@ video {
 .rounded-r-lg{
   border-top-right-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
+}
+
+.border{
+  border-width: 1px;
 }
 
 .bg-cinza-11{
