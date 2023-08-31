@@ -35,6 +35,7 @@ img[alt="ferramentas-manuais"] {
   margin-bottom: 4px;
 }
 
+/* PAGINA HOME */
 
 /* Aplicar Linear Gradiente no texto */
 .text-gradient {
@@ -78,4 +79,16 @@ img[alt="ferramentas-manuais"] {
   margin-right: 18px;
   color: #FFBB00;
   font-weight: bold;
+}
+
+/* PAGINA BICICLETAS */
+
+.bicicletas .image {
+  position: relative;
+}
+
+.bicicletas .image .p {
+  position: relative;
+  top: 20px;
+  color: blue;
 }
