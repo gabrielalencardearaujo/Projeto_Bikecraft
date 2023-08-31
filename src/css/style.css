@@ -101,3 +101,11 @@ img[alt="ferramentas-manuais"] {
   height: 8px;
   margin-bottom: 8px;
 }
+
+
+/* PAGINA BICICLETAS COMPRA */
+
+.image-slide{
+  max-width: 32%;
+  cursor: pointer;
+}
