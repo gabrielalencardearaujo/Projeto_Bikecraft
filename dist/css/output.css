@@ -655,8 +655,8 @@ video {
   margin-top: -3.5rem;
 }
 
-.-mt-24{
-  margin-top: -6rem;
+.-mt-20{
+  margin-top: -5rem;
 }
 
 .mb-10{
@@ -693,6 +693,10 @@ video {
 
 .mb-8{
   margin-bottom: 2rem;
+}
+
+.mb-96{
+  margin-bottom: 24rem;
 }
 
 .me-4{
@@ -770,10 +774,6 @@ video {
 
 .mt-52{
   margin-top: 13rem;
-}
-
-.mb-96{
-  margin-bottom: 24rem;
 }
 
 .block{
@@ -1376,7 +1376,7 @@ video {
 }
 
 .info-principal, .imagem-seguros {
-  max-height: 920px;
+  max-height: 980px;
 }
 
 .seguros {
@@ -1385,7 +1385,7 @@ video {
 }
 
 .tecnologia-avancada {
-  height: calc(100vh + 100px);
+  height: calc(100vh);
 }
 
 img[alt="ferramentas-manuais"] {
