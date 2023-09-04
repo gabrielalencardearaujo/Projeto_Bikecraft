@@ -139,3 +139,17 @@ img[alt="ferramentas-manuais"] {
   height: 30px;
   transform: rotateY(180deg);
 }
+
+
+/* PAGINA DE CONTATO */
+.contatos input {
+  border: none;
+}
+
+.contatos input:focus, .contatos textarea:focus {
+  outline: 2px solid #171717;
+}
+
+.contato-form {
+  height: 800px;
+}
