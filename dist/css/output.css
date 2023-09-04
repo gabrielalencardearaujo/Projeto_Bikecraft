@@ -6,6 +6,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@1&display=swap');
 
+.even\:bg-cinza-1:nth-child(even){
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
 /*
 ! tailwindcss v3.3.3 | MIT License | https://tailwindcss.com
 */
@@ -634,12 +639,12 @@ video {
           margin-inline-start: -2rem;
 }
 
-.-mt-24{
-  margin-top: -6rem;
+.-mt-14{
+  margin-top: -3.5rem;
 }
 
-.-mt-8{
-  margin-top: -2rem;
+.-mt-24{
+  margin-top: -6rem;
 }
 
 .mb-10{
@@ -658,8 +663,12 @@ video {
   margin-bottom: 5rem;
 }
 
-.mb-4{
-  margin-bottom: 1rem;
+.mb-32{
+  margin-bottom: 8rem;
+}
+
+.mb-6{
+  margin-bottom: 1.5rem;
 }
 
 .mb-64{
@@ -741,22 +750,6 @@ video {
 
 .mt-52{
   margin-top: 13rem;
-}
-
-.-mt-12{
-  margin-top: -3rem;
-}
-
-.-mt-14{
-  margin-top: -3.5rem;
-}
-
-.-mb-4{
-  margin-bottom: -1rem;
-}
-
-.-mt-4{
-  margin-top: -1rem;
 }
 
 .block{
@@ -864,24 +857,17 @@ video {
   width: fit-content;
 }
 
-.w-28{
-  width: 7rem;
-}
-
-.w-4{
-  width: 1rem;
-}
-
-.w-5{
-  width: 1.25rem;
-}
-
 .max-w-screen-2xl{
   max-width: 1536px;
 }
 
 .flex-none{
   flex: none;
+}
+
+.rotate-90{
+  --tw-rotate: 90deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .grid-cols-1{
@@ -1028,6 +1014,11 @@ video {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
+.bg-cinza-2{
+  --tw-bg-opacity: 1;
+  background-color: rgb(230 230 230 / var(--tw-bg-opacity));
+}
+
 .bg-cinza-5{
   --tw-bg-opacity: 1;
   background-color: rgb(161 161 161 / var(--tw-bg-opacity));
@@ -1093,6 +1084,11 @@ video {
   padding-right: 1.25rem;
 }
 
+.px-8{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 .py-1{
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
@@ -1118,6 +1114,11 @@ video {
   padding-bottom: 1rem;
 }
 
+.py-5{
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
 .pb-28{
   padding-bottom: 7rem;
 }
@@ -1140,10 +1141,6 @@ video {
 
 .text-start{
   text-align: start;
-}
-
-.align-middle{
-  vertical-align: middle;
 }
 
 .font-merriweather{
@@ -1253,6 +1250,11 @@ video {
   color: rgb(23 23 23 / var(--tw-text-opacity));
 }
 
+.text-cinza-12{
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
 .text-cinza-2{
   --tw-text-opacity: 1;
   color: rgb(230 230 230 / var(--tw-text-opacity));
@@ -1271,6 +1273,11 @@ video {
 .text-cinza-6{
   --tw-text-opacity: 1;
   color: rgb(138 138 138 / var(--tw-text-opacity));
+}
+
+.text-cinza-7{
+  --tw-text-opacity: 1;
+  color: rgb(115 115 115 / var(--tw-text-opacity));
 }
 
 .text-cinza-8{
@@ -1301,16 +1308,6 @@ video {
 .text-primary-5{
   --tw-text-opacity: 1;
   color: rgb(77 46 15 / var(--tw-text-opacity));
-}
-
-.text-cinza-12{
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
-}
-
-.text-cinza-7{
-  --tw-text-opacity: 1;
-  color: rgb(115 115 115 / var(--tw-text-opacity));
 }
 
 .ponto-final {
@@ -1414,4 +1411,28 @@ img[alt="ferramentas-manuais"] {
 .image-slide{
   max-width: 32%;
   cursor: pointer;
+}
+
+/* PAGINA SEGUROS */
+
+.pergunta {
+  position: relative;
+}
+
+.pergunta h3::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 10px;
+  background: linear-gradient(to bottom, #FFBB00, #EBAA13, #BF7F00);
+  margin-right: 8px;
+}
+
+.seta-dropdown {
+  position: absolute;
+  right: 40px;
+  top: 20px;
+  width: 20px;
+  height: 30px;
+  transform: rotateY(180deg);
 }
