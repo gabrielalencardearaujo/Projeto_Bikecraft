@@ -145,7 +145,7 @@ img[alt="ferramentas-manuais"] {
 
 /* PAGINA DE CONTATO */
 .contatos input {
-  border: none;
+  border: 1px solid #B8B8B8;
 }
 
 .contatos input:focus,

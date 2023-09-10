@@ -9,6 +9,92 @@
   <link rel="stylesheet" href="../../dist/css/output.css">
 </head>
 <body>
+  <header class="bg-cinza-12 grid grid-cols-12 h-28 items-center">
+    <a class="col-start-2 block w-32 h-8" href="./index.html">
+      <img class="text-white" src="../icons/logo.png" alt="logo">
+    </a>
+    <nav class="text-cinza-1 row-start-1 col-start-9">
+      <ul class="flex gap-10 font-poppins font-semibold text-lg leading-8">
+        <li class="ms-10"><a href="./bicicletas.html">Bicicletas</a></li>
+        <li><a href="./seguros.html">Seguros</a></li>
+        <li><a href="./contatos.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- FORM ORCAMENTO -->
+  <section class="contato-form bg-cinza-11 grid grid-cols-12 mb-96">
+    <div class="grid col-start-2 col-span-9 gap-6 py-24">
+      <h3 class="font-poppins text-2xl text-cinza-6 col-start-2 col-span-full">
+        RESPOSTAS EM ATÉ 48h
+      </h3>
+      <h1 class="text-6xl font-poppins font-medium col-start-2 col-span-full text-cinza-1 mb-20">
+        faça seu orçamento<span class="text-primary-1">.</span>
+      </h1>
+
+      <div class="contatos row-start-3 grid grid-cols-6 shadow-md">
+        <div class="bg-cinza-12 col-span-2 p-16 grid gap-20">
+          <h3 class="font-poppins text-3xl text-cinza-1 font-medium">Lojas Online</h3>
+          <div class="info-contatos grid content-between text-xl text-cinza-4 font-poppins h-52 gap-12">
+            <p class="localizacao w-60">
+              Rua Perto da Esquina, 13
+              Sao Paulo - SP <br>
+              Brasil - Terra
+            </p>
+            <p class="emails w-60">
+              vendas@bikecraft.com
+              suporte@bikecraft.com
+            </p>
+            <p class="telefones w-60">
+              +55 11 99999-9999
+              +55 11 2222-2222
+            </p>
+          </div>
+
+          <div class="redes-sociais flex gap-10 items-center mt-20 mb-10">
+            <a href="https://pt-br.facebook.com/" target="_blank">
+              <abbr title="Facebook"><img class="w-12" src="../icons/facebook-p 1.svg" alt="svg facebook"></abbr>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+              <abbr title="Instagram"><img class="w-12" src="../icons/instagram-p 1.svg" alt="svg instagram"></abbr>
+            </a>
+            <a href="https://www.youtube.com/" target="_blank">
+              <abbr title="Youtube"><img class="w-12" src="../icons/youtube-p 1.svg" alt="svg youtube"></abbr>
+            </a>
+          </div>
+        </div>
+
+        <form class="col-span-4 grid grid-cols-2 px-20 py-10 bg-cinza-1" action="" method="post">
+          <div class="col-span-2">
+            <label class="text-2xl block" for="ifullName">Nome Completo</label>
+            <input class="bg-cinza-2 text-cinza-11 h-14 p-5 text-xl rounded-lg mt-2 w-full" type="text" name="fullName" id="ifullName" placeholder="Seu nome">
+          </div>
+
+          <div class="col-span">
+            <label class="text-2xl block" for="icpf">CPF</label>
+            <input class="bg-cinza-2 text-cinza-11 h-14 p-5 text-xl rounded-lg mt-2" type="text" name="cpf" id="icpf" placeholder="xxx.xxx.xxx-xx">
+          </div>
+
+          <div class="col-span">
+            <label class="text-2xl" for="iphone">Telefone</label>
+            <input class="bg-cinza-2 text-cinza-11 h-14 p-5 text-xl rounded-lg mt-2" type="tel" name="phone" id="iphone" placeholder="(xx) xxxx-xxxx">
+          </div>
+
+          <div class="col-span-2">
+            <label class="text-2xl" for="iemail">Email</label>
+            <input class="bg-cinza-2 text-cinza-11 h-14 p-5 text-xl rounded-lg mt-2 w-full" type="email" name="email" id="iemail" placeholder="email@email.com">
+          </div>
+
+          <div>
+            <label class="text-2xl" for="imessage">Mensagem</label>
+            <textarea class="bg-cinza-2 text-cinza-11 p-5 text-xl rounded-lg resize-none mb-5 mt-2" name="message" id="imessage" cols="50" rows="6" placeholder="Oque você precisa?"></textarea>
+          </div>
+
+          <button class="w-56 h-14 bg-gradient-to-b from-primary-1 to-primary-2 rounded-md text-primary-5 font-poppins font-bold text-lg mt-2">ENVIAR</button>
+        </form>
+    </div>
+    </div>
+  </section>
   
 </body>
 </html>

@@ -587,6 +587,14 @@ video {
   grid-column: 1 / -1;
 }
 
+.col-span-3{
+  grid-column: span 3 / span 3;
+}
+
+.col-span-1{
+  grid-column: span 1 / span 1;
+}
+
 .col-start-2{
   grid-column-start: 2;
 }
@@ -685,6 +693,10 @@ video {
 
 .mb-4{
   margin-bottom: 1rem;
+}
+
+.mb-40{
+  margin-bottom: 10rem;
 }
 
 .mb-5{
@@ -786,10 +798,6 @@ video {
 
 .mt-8{
   margin-top: 2rem;
-}
-
-.mb-40{
-  margin-bottom: 10rem;
 }
 
 .block{
@@ -895,6 +903,10 @@ video {
 .w-fit{
   width: -moz-fit-content;
   width: fit-content;
+}
+
+.w-full{
+  width: 100%;
 }
 
 .max-w-screen-2xl{
@@ -1075,6 +1087,11 @@ video {
 .bg-primary-2{
   --tw-bg-opacity: 1;
   background-color: rgb(235 170 19 / var(--tw-bg-opacity));
+}
+
+.bg-cinza-4{
+  --tw-bg-opacity: 1;
+  background-color: rgb(184 184 184 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-b{
@@ -1524,7 +1541,7 @@ img[alt="ferramentas-manuais"] {
 /* PAGINA DE CONTATO */
 
 .contatos input {
-  border: none;
+  border: 1px solid #B8B8B8;
 }
 
 .contatos input:focus,
