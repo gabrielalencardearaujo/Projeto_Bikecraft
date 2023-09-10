@@ -635,9 +635,9 @@ video {
   margin-bottom: 3rem;
 }
 
-.my-32{
-  margin-top: 8rem;
-  margin-bottom: 8rem;
+.my-24{
+  margin-top: 6rem;
+  margin-bottom: 6rem;
 }
 
 .my-4{
@@ -665,6 +665,10 @@ video {
 
 .-mt-20{
   margin-top: -5rem;
+}
+
+.-mt-8{
+  margin-top: -2rem;
 }
 
 .mb-10{
@@ -796,10 +800,6 @@ video {
   margin-top: 2rem;
 }
 
-.-mt-8{
-  margin-top: -2rem;
-}
-
 .block{
   display: block;
 }
@@ -814,10 +814,6 @@ video {
 
 .grid{
   display: grid;
-}
-
-.h-12{
-  height: 3rem;
 }
 
 .h-14{
@@ -840,6 +836,10 @@ video {
   height: 13rem;
 }
 
+.h-6{
+  height: 1.5rem;
+}
+
 .h-8{
   height: 2rem;
 }
@@ -850,18 +850,6 @@ video {
 
 .h-full{
   height: 100%;
-}
-
-.h-screen{
-  height: 100vh;
-}
-
-.h-4{
-  height: 1rem;
-}
-
-.h-6{
-  height: 1.5rem;
 }
 
 .w-1\/2{
@@ -923,10 +911,6 @@ video {
 
 .w-full{
   width: 100%;
-}
-
-.w-4{
-  width: 1rem;
 }
 
 .max-w-screen-2xl{
@@ -1113,16 +1097,6 @@ video {
   background-color: rgb(235 170 19 / var(--tw-bg-opacity));
 }
 
-.bg-cinza-4{
-  --tw-bg-opacity: 1;
-  background-color: rgb(184 184 184 / var(--tw-bg-opacity));
-}
-
-.bg-cinza-8{
-  --tw-bg-opacity: 1;
-  background-color: rgb(92 92 92 / var(--tw-bg-opacity));
-}
-
 .bg-gradient-to-b{
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
@@ -1219,6 +1193,11 @@ video {
 .py-10{
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
+}
+
+.py-20{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .py-24{
@@ -1442,9 +1421,8 @@ video {
   color: #FFBB00 !important;
 }
 
-.info-principal,
-.imagem-seguros {
-  max-height: 980px;
+.info-principal{
+  max-height: 48vw;
 }
 
 .seguros {
@@ -1453,11 +1431,12 @@ video {
 }
 
 .tecnologia-avancada {
-  height: calc(100vh);
+  height: 52vw;
 }
 
 img[alt="ferramentas-manuais"] {
-  height: 1222px;
+  height: 60vw;
+  width: 40vw;
 }
 
 .detalhe-decoracao:before {
@@ -1610,4 +1589,8 @@ form h2::before {
 
 [type="checkbox"] {
   border: 1px solid blue;
+}
+
+.contato-form {
+  margin-bottom: 90vh;
 }

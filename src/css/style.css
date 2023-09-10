@@ -8,14 +8,12 @@
 @tailwind components;
 @tailwind utilities;
 
-
 .ponto-final {
   color: #FFBB00 !important;
 }
 
-.info-principal,
-.imagem-seguros {
-  max-height: 980px;
+.info-principal{
+  max-height: 48vw;
 }
 
 .seguros {
@@ -24,11 +22,12 @@
 }
 
 .tecnologia-avancada {
-  height: calc(100vh);
+  height: 52vw;
 }
 
 img[alt="ferramentas-manuais"] {
-  height: 1222px;
+  height: 60vw;
+  width: 40vw;
 }
 
 .detalhe-decoracao:before {
@@ -185,4 +184,8 @@ form h2::before {
 
 [type="checkbox"] {
   border: 1px solid blue;
+}
+
+.contato-form {
+  margin-bottom: 90vh;
 }
