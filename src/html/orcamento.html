@@ -33,25 +33,25 @@
       </h1>
 
       <div class="contatos row-start-3 grid grid-cols-6 shadow-md">
-        <div class="bg-cinza-12 col-span-2 p-16 grid gap-20">
+        <div class="bg-cinza-12 col-span-2 p-16 flex flex-col gap-20 items-start">
           <h3 class="font-poppins text-3xl text-cinza-1 font-medium">Lojas Online</h3>
-          <div class="info-contatos grid content-between text-xl text-cinza-4 font-poppins h-52 gap-12">
+          <div class="info-contatos grid content-between text-xl text-cinza-4 font-poppins gap-12">
             <p class="localizacao w-60">
               Rua Perto da Esquina, 13
               Sao Paulo - SP <br>
               Brasil - Terra
             </p>
-            <p class="emails w-60">
-              vendas@bikecraft.com
-              suporte@bikecraft.com
-            </p>
             <p class="telefones w-60">
               +55 11 99999-9999
               +55 11 2222-2222
             </p>
+            <p class="emails w-60">
+              vendas@bikecraft.com
+              suporte@bikecraft.com
+            </p>
           </div>
 
-          <div class="redes-sociais flex gap-10 items-center mt-20 mb-10">
+          <div class="redes-sociais flex gap-10 items-center">
             <a href="https://pt-br.facebook.com/" target="_blank">
               <abbr title="Facebook"><img class="w-12" src="../icons/facebook-p 1.svg" alt="svg facebook"></abbr>
             </a>
@@ -64,37 +64,100 @@
           </div>
         </div>
 
-        <form class="col-span-4 grid grid-cols-2 px-20 py-10 bg-cinza-1" action="" method="post">
-          <div class="col-span-2">
-            <label class="text-2xl block" for="ifullName">Nome Completo</label>
-            <input class="bg-cinza-2 text-cinza-11 h-14 p-5 text-xl rounded-lg mt-2 w-full" type="text" name="fullName" id="ifullName" placeholder="Seu nome">
+        <form class="col-span-4 grid grid-cols-2 px-20 py-10 bg-cinza-1 gap-28" action="" method="post">
+          <div class="col-span-2 grid grid-cols-2 gap-10">
+
+            <h2 class="col-span-2 -mb-4 font-semibold font-poppins text-xl flex">Dados Pessoais</h2>
+
+            <div class="col-span-2 -mb-4">
+              <label class="text-2xl block" for="ifullName">Nome Completo</label>
+              <input class="bg-cinza-2 text-cinza-11 h-14 p-5 text-xl rounded-lg mt-2 w-full" type="text" name="fullName" id="ifullName" placeholder="Seu nome">
+            </div>
+            <div class="col-span -mb-4">
+              <label class="text-2xl block" for="icpf">CPF</label>
+              <input class="bg-cinza-2 text-cinza-11 h-14 p-5 text-xl rounded-lg mt-2" type="text" name="cpf" id="icpf" placeholder="xxx.xxx.xxx-xx">
+            </div>
+            <div class="col-span -mb-4">
+              <label class="text-2xl" for="iphone">Telefone</label>
+              <input class="bg-cinza-2 text-cinza-11 h-14 p-5 text-xl rounded-lg mt-2 w-full" type="tel" name="phone" id="iphone" placeholder="(xx) xxxx-xxxx">
+            </div>
+            <div class="col-span-2 -mb-4">
+              <label class="text-2xl" for="iemail">Email</label>
+              <input class="bg-cinza-2 text-cinza-11 h-14 p-5 text-xl rounded-lg mt-2 w-full" type="email" name="email" id="iemail" placeholder="email@email.com">
+            </div>
           </div>
 
-          <div class="col-span">
-            <label class="text-2xl block" for="icpf">CPF</label>
-            <input class="bg-cinza-2 text-cinza-11 h-14 p-5 text-xl rounded-lg mt-2" type="text" name="cpf" id="icpf" placeholder="xxx.xxx.xxx-xx">
+          <div class="col-span-2 grid grid-cols-2 gap-10">
+            <h2 class="col-span-2 -mb-4 font-semibold font-poppins text-xl flex">Entrega</h2>
+            <div class="col-span-2 -mb-4">
+              <label class="text-2xl block" for="iendereco">Endereço</label>
+              <input class="bg-cinza-2 text-cinza-11 h-14 p-5 text-xl rounded-lg mt-2 w-full" type="text" name="endereco" id="iendereco" placeholder="Seu endereço">
+            </div>
+            <div class="col-span -mb-4">
+              <label class="text-2xl block" for="inumero">Número</label>
+              <input class="bg-cinza-2 text-cinza-11 h-14 p-5 text-xl rounded-lg mt-2 w-full" type="text" name="numero" id="inumero" placeholder="xx">
+            </div>
+            <div class="col-span -mb-4">
+              <label class="text-2xl" for="icep">CEP</label>
+              <input class="bg-cinza-2 text-cinza-11 h-14 p-5 text-xl rounded-lg mt-2 w-full" type="text" name="cep" id="icep" placeholder="xxxxx-xxx">
+            </div>
+            <div class="col-span -mb-4">
+              <label class="text-2xl" for="ibairro">Bairro</label>
+              <input class="bg-cinza-2 text-cinza-11 h-14 p-5 text-xl rounded-lg mt-2 w-full" type="text" name="bairro" id="ibairro">
+            </div>
+
+            <div class="col-span -mb-4">
+              <label class="text-2xl" for="icidade">Cidade</label>
+              <input class="bg-cinza-2 text-cinza-11 h-14 p-5 text-xl rounded-lg mt-2 w-full" type="text" name="cidade" id="icidade">
+            </div>
+            <div class="col-span-2">
+              <input class="h-6 w-6 me-4" type="checkbox" name="termos" id="idtermos">
+              <p class="inline-block font-roboto text-2xl">Li e aceito os termos e condições.</p>
+            </div>
           </div>
 
-          <div class="col-span">
-            <label class="text-2xl" for="iphone">Telefone</label>
-            <input class="bg-cinza-2 text-cinza-11 h-14 p-5 text-xl rounded-lg mt-2" type="tel" name="phone" id="iphone" placeholder="(xx) xxxx-xxxx">
-          </div>
-
-          <div class="col-span-2">
-            <label class="text-2xl" for="iemail">Email</label>
-            <input class="bg-cinza-2 text-cinza-11 h-14 p-5 text-xl rounded-lg mt-2 w-full" type="email" name="email" id="iemail" placeholder="email@email.com">
-          </div>
-
-          <div>
-            <label class="text-2xl" for="imessage">Mensagem</label>
-            <textarea class="bg-cinza-2 text-cinza-11 p-5 text-xl rounded-lg resize-none mb-5 mt-2" name="message" id="imessage" cols="50" rows="6" placeholder="Oque você precisa?"></textarea>
-          </div>
-
-          <button class="w-56 h-14 bg-gradient-to-b from-primary-1 to-primary-2 rounded-md text-primary-5 font-poppins font-bold text-lg mt-2">ENVIAR</button>
+          <button class="w-80 h-16 bg-gradient-to-b from-primary-1 to-primary-2 rounded-md text-primary-5 font-poppins font-bold text-xl -mt-8">SOLICITAR ORÇAMENTO</button>
         </form>
     </div>
-    </div>
   </section>
+
+  <footer class="bg-cinza-12 grid grid-cols-3 flex-none text-cinza-1">
+    <img class="text-white w-32 h-8 justify-self-center mt-24" src="../icons/logo.png" alt="logo">
+
+    <div class="footer-contatos mt-24 flex flex-col gap-14 mb-20">
+      <h3 class="font-roboto text-3xl text-cinza-1 font-bold">CONTATOS</h3>
+      <div class="info-contatos grid content-between text-xl text-cinza-4 font-poppins h-52">
+        <p>+55 11 99999-9999</p>
+        <p>contato@bikecraft.com</p>
+        <p>Rua Bikecraft, 22 - Sao Paulo - SP</p>
+      </div>
+      <div class="redes-sociais flex gap-10 items-center">
+        <a href="https://pt-br.facebook.com/" target="_blank">
+          <abbr title="Facebook"><img class="w-12" src="../icons/facebook-p 1.svg" alt="svg facebook"></abbr>
+        </a>
+        <a href="https://www.instagram.com/" target="_blank">
+          <abbr title="Instagram"><img class="w-12" src="../icons/instagram-p 1.svg" alt="svg instagram"></abbr>
+        </a>
+        <a href="https://www.youtube.com/" target="_blank">
+          <abbr title="Youtube"><img class="w-12" src="../icons/youtube-p 1.svg" alt="svg youtube"></abbr>
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-informacoes mt-24 flex flex-col gap-14">
+      <h3 class="font-roboto text-3xl text-cinza-1 font-bold">INFORMACOES</h3>
+      <ul class="info-contatos grid content-between text-xl text-cinza-4 font-poppins h-52 w-52">
+        <li><a href="./bicicletas.html">Bicicletas</a></li>
+        <li><a href="#">Seguros</a></li>
+        <li><a href="#">Contato</a></li>
+        <li><a href="#">Termos e Condicoes</a></li>
+      </ul>
+    </div>
+
+    <p class="col-span-full font-poppins text-xl py-10 w-9/12 m-auto text-cinza-6">
+      Bikecraft © Alguns direitos reservados. Design da pagina desenvolvido nas aulas do curso de Ui Design , Origamid.
+    </p>
+</footer>
   
 </body>
 </html>
