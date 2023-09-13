@@ -134,17 +134,19 @@
   <section class="planos-seguro bg-cinza-11 h-full pb-28">
     <h2 class= "h-16 w-9/12 mx-auto text-cinza-2 font-bold font-poppins xl:text-5xl xs:text-4xl mt-36 mb-10">seguros<span class="text-primary-1">.</span></h2>
 
-    <div class="grid grid-cols-2 justify-center gap-10">
-      <div class="plano-prata bg-cinza-12 grid grid-cols-1 justify-center w-1/2 m-auto p-10 text-cinza-1 rounded-xl">
+    <div class="grid lg:grid-cols-2 lg:justify-center gap-10">
+
+      <!-- Card assinatura Prata -->
+      <div class="plano-prata bg-cinza-12 grid grid-cols-1 justify-center min-[1600px]:w-3/5 lg:w-4/5 md:w-1/2 xs:w-3/4 m-auto p-10 text-cinza-1 rounded-xl xs:order-2 lg:order-1">
         <div class="valor-plano flex justify-between font-poppins font-bold mb-10">
-          <h3 class="text-3xl text-cinza-5 uppercase">Prata</h3>
+          <h3 class="min-[1600px]:text-3xl md:text-2xl xs:text-xl text-cinza-5 uppercase">Prata</h3>
           <div class="preco">
-            <h3 class="text-4xl"><sup>R$</sup>99</h3>
-            <p class="text-base text-cinza-5 text-right">mensal</p>
+            <h3 class="min-[1600px]:text-4xl md:text-3xl xs:text-2xl"><sup>R$</sup>99</h3>
+            <p class="min-[1600px]:text-base md:text-sm text-cinza-5 text-right">mensal</p>
           </div>
         </div>
         <div class="lista-vantagens mb-8">
-          <ul class="font-medium font-roboto text-2xl text-start leading-10 flex flex-col gap-5">
+          <ul class="font-medium font-roboto min-[1600px]:text-2xl lg:text-xl md:text-lg text-start leading-10 flex flex-col min-[1600px]:gap-6 xl:gap-3">
             <li>Duas trocas por ano.</li>
             <li>Assistencia tecnica.</li>
             <li>Suporte  8h as 22h.</li>
@@ -157,16 +159,17 @@
         </button>
       </div>
 
-      <div class="plano-ouro bg-cinza-12 grid grid-cols-1 justify-center w-3/5 p-14 text-cinza-1 rounded-xl">
+      <!-- Card assinatura Ouro -->
+      <div class="plano-ouro bg-cinza-12 grid grid-cols-1 justify-center min-[1600px]:w-3/5 lg:w-4/5 md:w-1/2 xs:w-3/4 p-14 text-cinza-1 rounded-xl m-auto xs:order-1 lg:order-2">
         <div class="valor-plano flex justify-between font-poppins font-bold mb-12">
-          <h3 class="text-4xl text-primary-1 uppercase">Ouro</h3>
+          <h3 class="min-[1600px]:text-4xl md:text-3xl xs:text-2xl text-primary-1 uppercase">Ouro</h3>
           <div class="preco">
-            <h3 class="text-5xl"><sup>R$</sup>199</h3>
-            <p class="text-base text-cinza-5 text-right">mensal</p>
+            <h3 class="min-[1600px]:text-5xl md:text-4xl xs:text-3xl"><sup>R$</sup>199</h3>
+            <p class="min-[1600px]:text-base md:text-sm text-cinza-5 text-right">mensal</p>
           </div>
         </div>
         <div class="lista-vantagens mb-12">
-          <ul class="font-medium font-roboto text-2xl text-start leading-10 flex flex-col gap-6">
+          <ul class="font-medium font-roboto min-[1600px]:text-2xl lg:text-xl md:text-lg text-start leading-10 flex flex-col min-[1600px]:gap-6 xl:gap-3">
             <li>Quatro trocas por ano.</li>
             <li>Assistencia especial.</li>
             <li>Suporte 24h.</li>
@@ -177,13 +180,15 @@
         </div>
         <button class="content-end px-14 rounded-md py-4 bg-gradient-to-b from-primary-2 to-primary-4 font-poppins text-2xl text-primary-5 tracking-wider font-bold justify-self-end">ASSINE JA</button>
       </div>
+
     </div>
+
   </section>
 
-  <footer class="bg-cinza-12 grid grid-cols-3 flex-none text-cinza-1">
-      <img class="text-white w-32 h-8 justify-self-center mt-24" src="../icons/logo.png" alt="logo">
+  <footer class="bg-cinza-12 grid lg:grid-cols-3 md:grid-cols-2 flex-none text-cinza-1">
+      <img class="text-white w-32 h-8 xs:ms-20 lg:justify-self-center mt-24" src="../icons/logo.png" alt="logo">
 
-      <div class="footer-contatos mt-24 flex flex-col gap-14 mb-20">
+      <div class="footer-contatos mt-24 flex flex-col gap-14 mb-20 xs:ms-20 sm:ms-0">
         <h3 class="font-roboto text-3xl text-cinza-1 font-bold">CONTATOS</h3>
         <div class="info-contatos grid content-between text-xl text-cinza-4 font-poppins h-52">
           <p>+55 11 99999-9999</p>
@@ -203,7 +208,7 @@
         </div>
       </div>
 
-      <div class="footer-informacoes mt-24 flex flex-col gap-14">
+      <div class="sm:col-start-2 lg:col-start-3 footer-informacoes mt-24 flex flex-col gap-14 xs:ms-20 sm:ms-0">
         <h3 class="font-roboto text-3xl text-cinza-1 font-bold">INFORMACOES</h3>
         <ul class="info-contatos grid content-between text-xl text-cinza-4 font-poppins h-52 w-52">
           <li><a href="./bicicletas.html">Bicicletas</a></li>
@@ -213,7 +218,7 @@
         </ul>
       </div>
 
-      <p class="col-span-full font-poppins text-xl py-10 w-9/12 m-auto text-cinza-6">
+      <p class="col-span-full font-poppins lg:text-xl md:text-lg xs:text-base lg:py-10 xs:pt-20 xs:pb-8 lg:w-9/12 xs:w-full m-auto text-cinza-6 text-center">
         Bikecraft © Alguns direitos reservados. Design da pagina desenvolvido nas aulas do curso de Ui Design , Origamid.
       </p>
   </footer>
