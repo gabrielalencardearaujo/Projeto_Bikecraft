@@ -11,19 +11,19 @@
 .ponto-final {
   color: #FFBB00 !important;
 }
-
+/* 
 .info-principal{
-  max-height: 48vw;
-}
+  height: 90vh;
+} */
 
 .seguros {
   height: 720px;
   margin-top: 50px;
 }
 
-.tecnologia-avancada {
+/* .tecnologia-avancada {
   height: 52vw;
-}
+} */
 
 img[alt="ferramentas-manuais"] {
   height: 60vw;
@@ -188,4 +188,62 @@ form h2::before {
 
 .contato-form {
   margin-bottom: 90vh;
+}
+
+
+@media screen and (max-width: 640px) {
+  .info-principal img {
+    display: none;
+  }
+
+  /* .info-principal {
+    max-height: 100vh;
+  } */
+
+  .aspas1, .aspas2 {
+    width: 20px;
+  }
+
+  .texto-cliente {
+    line-height: 28px;
+  }
+
+}
+
+@media screen and (max-width: 840px) {
+
+  /* .info-principal {
+    max-height: 90vh;
+  } */
+
+  .info-principal img {
+    display: none;
+  }
+
+  .aspas1, .aspas2 {
+    width: 28px;
+  }
+
+  .texto-cliente {
+    line-height: 36px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+
+  /* .info-principal {
+    max-height: 70vh;
+  } */
+
+  .info-principal img {
+    width: 60vh;
+  }
+
+  .aspas1, .aspas2 {
+    width: 34px;
+  }
+
+  .texto-cliente {
+    line-height: 40px;
+  }
 }

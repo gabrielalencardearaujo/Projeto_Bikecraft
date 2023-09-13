@@ -11,10 +11,10 @@
 </head>
 <body class="grid">
   <header class="bg-cinza-12 grid grid-cols-12 h-28 items-center">
-    <a class="col-start-2 block w-32 h-8" href="./index.html">
+    <a class="col-start-2 xl:col-span-7 md:col-span-6 sm:col-span-4 xs:col-span-3 block w-32 h-8" href="./index.html">
       <img class="text-white" src="../icons/logo.png" alt="logo">
     </a>
-    <nav class="text-cinza-1 row-start-1 col-start-9">
+    <nav class="text-cinza-1">
       <ul class="flex gap-10 font-poppins font-semibold text-lg leading-8">
         <li class="ms-10"><a href="./bicicletas.html">Bicicletas</a></li>
         <li><a href="./seguros.html">Seguros</a></li>
@@ -23,56 +23,57 @@
     </nav>
   </header>
 
-  <section class="info-principal bg-cinza-12 grid grid-cols-12">
-    <article class="col-start-2 col-span-4 text-cinza-1 self-center grid gap-10 mb-64">
-      <h1 class="text-6xl font-poppins font-medium">Bicicletas feitas sob medida<span class="text-primary-1">.</span>
+  <section class="info-principal bg-cinza-12 grid grid-cols-12 xl:h-screen md:h-5/6 xs:h-screen">
+    <article class="col-start-2 md:col-span-4 xs:col-span-10  text-cinza-1 self-center grid md:gap-10 xs:gap-14 mb-48 xs:py-24">
+      <h1 class="xl:text-6xl md:text-4xl sm:text-6xl xs:text-5xl font-poppins font-medium ">Bicicletas feitas sob medida<span class="text-primary-1">.</span>
       </h1>
       
-      <p class="text-2xl font-medium font-roboto text-cinza-5">Bicicletas elétricas de alta precisão e qualidade,  feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft.</p>
+      <p class="xl:text-2xl xs:text-xl  font-medium font-roboto text-cinza-5">Bicicletas elétricas de alta precisão e qualidade,  feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft.</p>
       <a class="w-56 h-14" href="./bicicletas.html"><button class="w-56 h-14 bg-gradient-to-b from-primary-2 to-primary-4  rounded-md text-primary-5 font-poppins font-bold text-lg">ESCOLHA A SUA</button></a>
     </article>
     <img class="col-start-7 col-span-5" src="../img/bike-introducao.png" alt="nimbus stark">
   </section>
 
-  <section class="escolha-bike mt-32">
-    <h2 class="w-9/12 m-auto font-bold font-poppins text-5xl mb-20">escolha a sua<span class="text-primary-1">.</span></h2>
-    <div class="grid grid-cols-3 w-fit gap-10 mx-20">
-      <div class="font-roboto text-2xl text-cinza-11 font-bold">
+  <section class="escolha-bike xl:mt-32 xs:mt-28">
+    <h2 class="w-9/12 m-auto font-bold font-poppins xl:text-5xl md:text-4xl xs:text-3xl mb-20">escolha a sua<span class="text-primary-1">.</span></h2>
+    <div class="grid lg:grid-cols-3 xs:grid-cols-1 gap-10  mx-20">
+      <div class="font-roboto text-2xl text-cinza-11 font-bold xs:grid items-center sm:grid-cols-2 lg:grid-cols-1 sm:gap-10 lg:gap-0">
         <a href="./magic.html"><img src="../img/magic-anuncio-principal.png" alt="magic might"></a>
         <a href="./magic.html">
-          <p class="mt-4 mb-2 detalhe-decoracao">Magic Might</p>
+          <p class="mt-4 mb-2 detalhe-decoracao sm:text-4xl lg:text-2xl">Magic Might</p>
           <p class="font-normal text-cinza-8 ms-8"><sup>R$</sup> 2.699</p>
         </a>
       </div>
-      <div class="font-roboto text-2xl text-cinza-11 font-bold">
+      <div class="font-roboto text-2xl text-cinza-11 font-bold xs:grid items-center sm:grid-cols-2 lg:grid-cols-1 sm:gap-10 lg:gap-0">
         <a href="./nimbus.html"><img src="../img/nimbus-anuncio-principal.png" alt="nimbus stark"></a>
         <a href="./nimbus.html">
-          <p class="mt-4 mb-2 detalhe-decoracao">Nimbus Stark</p>
+          <p class="mt-4 mb-2 detalhe-decoracao sm:text-4xl lg:text-2xl">Nimbus Stark</p>
           <p class="font-normal text-cinza-8 ms-8"><sup>R$</sup> 4.299</p>
         </a>
       </div>
-      <div class="font-roboto text-2xl text-cinza-11 font-bold">
+      <div class="font-roboto text-2xl text-cinza-11 font-bold xs:grid items-center sm:grid-cols-2 lg:grid-cols-1 sm:gap-10 lg:gap-0">
         <a href="./nebula.html"><img src="../img/nebula-anuncio-principal.png" alt="nebula cosmic"></a>
         <a href="./nebula.html">
-          <p class="mt-4 mb-2 detalhe-decoracao">Nebula Cosmic</p>
+          <p class="mt-4 mb-2 detalhe-decoracao sm:text-4xl lg:text-2xl">Nebula Cosmic</p>
           <p class="font-normal text-cinza-8 ms-8"><sup>R$</sup> 1.899</p>
         </a>
       </div>
     </div>
   </section>
 
-  <section class="tecnologia-avancada grid grid-cols-2 bg-cinza-11 my-60 gap-10">
-    <img class="ms-32 -mt-20" src="../img/ferramentas-manuais.png" alt="ferramentas-manuais">
-    <article class="my-24 me-48 flex flex-col gap-12">
-      <h3 class="font-poppins text-2xl text-cinza-6">Tecnologias Avancadas</h3>
-      <h1 class="text-7xl font-poppins font-medium text-cinza-1">voce escolhe as suas cores e componentes<span class="text-primary-1">.</span></h1>
-      <p class="text-2xl font-medium font-roboto text-cinza-5">Cada Bikcraft é única e possui a sua identidade. As medidas serão exatas para o seu corpo e altura, garantindo maior conforto e ergonomia na sua pedalada. Você pode também personalizar completamente as suas cores. </p>
+  <section class="tecnologia-avancada lg:grid grid-cols-2 bg-cinza-11 xl:my-60 lg:my-48 md:my-32 xs:my-20 gap-10">
+    <img class="xl:ms-32 md:ms-24 xl:-mt-10 xl:-mb-10 xs:self-center lg:block xs:hidden" src="../img/ferramentas-manuais.png" alt="ferramentas-manuais">
+
+    <article class="my-24 min-[1600px]:me-48 xl:me-20 xs:mx-10 flex flex-col gap-12">
+      <h3 class="font-poppins xl:text-2xl lg:text-xl md:text-lg xs:text-base text-cinza-6">Tecnologias Avancadas</h3>
+      <h1 class="min-[1600px]:text-7xl xl:text-6xl lg:text-4xl sm:text-6xl xs:text-5xl font-poppins font-medium text-cinza-1">voce escolhe as suas cores e componentes<span class="text-primary-1">.</span></h1>
+      <p class="xl:text-2xl lg:text-xl md:text-lg xs:text-base font-medium font-roboto text-cinza-5">Cada Bikcraft é única e possui a sua identidade. As medidas serão exatas para o seu corpo e altura, garantindo maior conforto e ergonomia na sua pedalada. Você pode também personalizar completamente as suas cores. </p>
       <a class="text-gradient font-roboto text-2xl font-medium  w-64 uppercase" href="./bicicletas.html">Escolha um Modelo</a>
 
-      <div class="destaque mt-20 flex gap-16">
+      <div class="destaque mt-20 flex xl:flex-row lg:flex-col sm:flex-row xs:flex-col gap-16">
         <div>
           <div class="flex">
-            <h3 class="font-poppins text-2xl text-cinza-1 font-medium inline-block me-auto">Motor Eletrico</h3>
+            <h3 class="font-poppins text-2xl  text-cinza-1 font-medium inline-block me-auto">Motor Eletrico</h3>
             <img class="inline-block w-8 me-6" src="../icons/eletrica 1.svg" alt="svg bike eletrica">
           </div>
           <p class="font-roboto text-xl text-cinza-6 ">Toda Bikcraft é equipada com um motor elétrico que possui duração de até 120h. A bateria é recarregada com a sua energia gasta ao pedalar.</p>
@@ -89,49 +90,49 @@
   </section>
 
   <section class="parceiros grid gap-10">
-    <h2 class="w-9/12 m-auto font-bold font-poppins text-5xl mb-20">nossos parceiros<span class="text-primary-1">.</span></h2>
+    <h2 class="w-9/12 m-auto font-bold font-poppins xl:text-5xl md:text-4xl xs:text-3xl mb-20 ">nossos parceiros<span class="text-primary-1">.</span></h2>
     <div class="flex flex-wrap m-auto gap-20 max-w-screen-2xl justify-center">
         <a  href="">
-          <img class="w-60" src="../icons/caravan 1.svg" alt="">
+          <img class="xs:w-48 sm:w-60" src="../icons/caravan 1.svg" alt="">
         </a>
         <a href="">
-          <img class="w-60" src="../icons/dogs 1.svg" alt="">
+          <img class="xs:w-48 sm:w-60" src="../icons/dogs 1.svg" alt="">
         </a>
         <a href="">
-          <img class="w-60" src="../icons/handel 1.svg" alt="">
+          <img class="xs:w-48 sm:w-60" src="../icons/handel 1.svg" alt="">
         </a>
         <a href="">
-          <img class="w-60" src="../icons/surfbot 1.svg" alt=""></a>
+          <img class="xs:w-48 sm:w-60" src="../icons/surfbot 1.svg" alt=""></a>
         <a href="">
-          <img class="w-60" src="../icons/wildbeast 1.svg" alt="">
+          <img class="xs:w-48 sm:w-60" src="../icons/wildbeast 1.svg" alt="">
         </a>
         <a href="">
-          <img class="w-60" src="../icons/ranek 1.svg" alt="">
+          <img class="xs:w-48 sm:w-60" src="../icons/ranek 1.svg" alt="">
         </a>
         <a href="">
-          <img class="w-60" src="../icons/lescone 1.svg" alt="">
+          <img class="xs:w-48 sm:w-60" src="../icons/lescone 1.svg" alt="">
         </a>
         <a href="">
-          <img class="w-60" src="../icons/flexblog 1.svg" alt="">
+          <img class="xs:w-48 sm:w-60" src="../icons/flexblog 1.svg" alt="">
         </a>
       </div>
   </section>
 
-  <section class="feedback-cliente grid grid-cols-2 mt-52 bg-primary-2">
-    <img class="" src="../img/feedback.png" alt="foto-cliente">
-    <div class="flex flex-col w-4/6 m-auto gap-48 cliente">
+  <section class="feedback-cliente min-[880px]:grid grid-cols-2 mt-52 bg-primary-2 max-[880px]:py-24">
+    <img class="max-[880px]:hidden" src="../img/feedback.png" alt="foto-cliente">
+    <div class="flex flex-col w-4/6 m-auto min-[1600px]:gap-48 xl:gap-32 md:gap-20 cliente">
       <h3 class="text-right font-poppins text-3xl text-primary-3">nossos clientes<span class="text-primary-5">.</span></h3>
       <img class="aspas1" src="../icons/aspas.svg" alt="">
       <img class="aspas2" src="../icons/aspas.svg" alt="">
       <div class="flex flex-col gap-10">
         <h3 class="text-right font-poppins text-primary-4 text-3xl font-medium">Ana Julia</h3>
-        <p class="font-merriweather font-bold italic text-4xl text-primary-5 texto-cliente">Pedalar sempre foi a minha paixão, o que o pessoal da Bikcraft fez foi intensificar o meu amor por esta atividade. Recomendo à todos que amo.</p>
+        <p class="font-merriweather font-bold italic min-[1600px]:text-4xl xl:text-2xl max-[880px]:text-4xl max-[640px]:text-2xl text-primary-5 texto-cliente">Pedalar sempre foi a minha paixão, o que o pessoal da Bikcraft fez foi intensificar o meu amor por esta atividade. Recomendo à todos que amo.</p>
       </div>
     </div>
   </section>
 
   <section class="planos-seguro bg-cinza-11 h-full pb-28">
-    <h2 class= "h-16 w-9/12 mx-auto text-cinza-2 font-bold font-poppins text-5xl mt-36 mb-10">seguros<span class="text-primary-1">.</span></h2>
+    <h2 class= "h-16 w-9/12 mx-auto text-cinza-2 font-bold font-poppins xl:text-5xl xs:text-4xl mt-36 mb-10">seguros<span class="text-primary-1">.</span></h2>
 
     <div class="grid grid-cols-2 justify-center gap-10">
       <div class="plano-prata bg-cinza-12 grid grid-cols-1 justify-center w-1/2 m-auto p-10 text-cinza-1 rounded-xl">
