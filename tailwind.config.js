@@ -58,6 +58,9 @@ module.exports = {
 
       'xxl': '1600px',
       // => @media (min-width: 1600px) { ... }
+
+      'bl': '1800px',
+      // => @media (min-width: 1800px) { ... }
     },
   },
   plugins: [],

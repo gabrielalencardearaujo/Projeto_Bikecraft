@@ -246,4 +246,8 @@ form h2::before {
   .texto-cliente {
     line-height: 40px;
   }
+
+  .image-slide {
+    max-width: 65%;
+  }
 }
