@@ -11,115 +11,121 @@
 </head>
 <body class="grid">
   <header class="bg-cinza-12 grid grid-cols-12 h-28 items-center">
-    <a class="col-start-2 block w-32 h-8" href="./index.html">
+    <a class="col-start-2 xl:col-span-7 md:col-span-6 sm:col-span-4 xs:col-span-3 block w-32 h-8" href="./index.html">
       <img class="text-white" src="../icons/logo.png" alt="logo">
     </a>
-    <nav class="text-cinza-1 row-start-1 col-start-9">
+    <nav class="text-cinza-1">
       <ul class="flex gap-10 font-poppins font-semibold text-lg leading-8">
-        <li class="ms-10"><a href="#">Bicicletas</a></li>
+        <li class="ms-10 border-b-2"><a href="./bicicletas.html">Bicicletas</a></li>
         <li><a href="./seguros.html">Seguros</a></li>
-        <li><a href="#">Contato</a></li>
+        <li><a href="./contatos.html">Contato</a></li>
       </ul>
     </nav>
   </header>
 
-  <section class="grid grid-cols-12 h-80 bg-cinza-11 items-center py-24 gap-7">
-    <h3 class="font-poppins text-2xl text-cinza-6 col-start-2 col-span-full">
+  <section class="grid grid-cols-12 md:h-80 xs:h-48 bg-cinza-11 items-center md:py-24 xs:py-14 gap-7">
+    <h3 class="font-poppins md:text-2xl xs:text-lg text-cinza-6 col-start-2 col-span-full">
       ESCOLHA A MELHOR PARA VOCÊ
     </h3>
-    <h1 class="text-6xl font-poppins font-medium col-start-2 col-span-full text-cinza-1">
+    <h1 class="sm:text-6xl xs:text-5xl font-poppins font-medium col-start-2 col-span-full text-cinza-1">
       nossas bicicletas<span class="text-primary-1">.</span>
     </h1>
   </section>
 
-  <section class="bicicletas grid grid-cols-2 p-32 gap-10">
-    <div class="image relative text-right">
-      <p class="preco-img relative bg-cinza-12 text-cinza-1 inline-block py-3 px-5 font-poppins text-2xl rounded-l-lg top-28"> <sup>R$</sup> 2.699</p>
+  <!-- Magic Might -->
+  <section class="bicicletas grid lg:grid-cols-2 xl:p-32 md:p-18 xs:p-10 gap-10">
+    <div class="image relative text-right lg:min-w-[480px]">
+      <p class="preco-img relative bg-cinza-12 text-cinza-1 inline-block sm:py-3 xs:py-1 sm:px-5 xs:px-2 font-poppins sm:text-2xl xs:text-lg rounded-l-lg sm:top-28 lg:top-20 xs:top-16"> <sup>R$</sup> 2.699</p>
       <img src="../img/magic.png" alt="magic might">
     </div>
 
-    <div class="info-bike grid gap-10 mt-14">
-      <h3 class="font-poppins font-bold text-4xl text-cinza-11 detalhe-decoracao">Magic Might</h3>
-      <p class="font-roboto text-2xl text-cinza-6 leading-9">
+    <div class="info-bike grid gap-10 lg:mt-14">
+      <h3 class="font-poppins font-bold xxl:text-4xl xl:text-3xl md:text-2xl xs:text-xl text-cinza-11 detalhe-decoracao">Magic Might</h3>
+      <p class="font-roboto xxl:text-2xl lg:text-lg text-cinza-6 xxl:leading-9 lg:leading-6">
         A Magic Might é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios, o que garante maior velocidade.A Nimbus Stark é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios, o que ga rante maior velocidade.
       </p>
       <div class="vantagens grid grid-cols-2">
         <ul class="content-between">
-          <li class="font-poppins text-2xl text-cinza-8 font-medium my-4">
+          <li class="font-poppins xxl:text-2xl xl:text-xl md:text-lg text-cinza-8 font-medium xxl:my-4 md:my-2">
             <img class="inline-block me-4" src="../icons/eletrica 1.svg" alt="motor eletrico">Motor Elétrico</li>
-          <li class="font-poppins text-2xl text-cinza-8 font-medium my-4">
+          <li class="font-poppins xxl:text-2xl xl:text-xl md:text-lg text-cinza-8 font-medium xxl:my-4 md:my-2">
             <img class="inline-block me-4" src="../icons/rastreador 1.svg" alt="rastreador">Rastreador</li>
-          <li class="font-poppins text-2xl text-cinza-8 font-medium my-4">
-            <img class="inline-block me-4" src="../icons/velocidade 1.svg" alt="velocidade">40 km/h</li>
-          <li class="font-poppins text-2xl text-cinza-8 font-medium my-4">
+          <li class="font-poppins xxl:text-2xl xl:text-xl md:text-lg text-cinza-8 font-medium xxl:my-4 md:my-2">
+            <img class="inline-block me-4" src="../icons/velocidade 1.svg" alt="velocidade">30 km/h</li>
+          <li class="font-poppins xxl:text-2xl xl:text-xl md:text-lg text-cinza-8 font-medium xxl:my-4 md:my-2">
             <img class="inline-block me-4" src="../icons/carbono 1.svg" alt="fibra de carbono">Fibra de Carbono</li>
         </ul>
 
-        <a class="justify-self-end self-end" href="./magic.html"><button class="bg-gradient-to-b from-primary-2 to-primary-4 w-56 h-14 rounded-md text-primary-5 font-poppins font-bold text-lg self-end my-12 uppercase justify-self-end" type="button">Mais sobre <img class="inline-block ms-3" src="../icons/seta 1.svg" alt=""></button></a> 
+        <a class="justify-self-end self-end" href="./magic.html"><button class="bg-gradient-to-b from-primary-2 to-primary-4 xxl:w-56 xxl:h-14
+           xs:w-48 xs:h-14 rounded-md text-primary-5 font-poppins font-bold text-lg self-end my-12 uppercase justify-self-end" type="button">Mais sobre <img class="inline-block ms-3" src="../icons/seta 1.svg" alt=""></button></a> 
       </div>
     </div>
   </section>
 
-  <section class="bicicletas grid grid-cols-2 pb-32 pt-20 px-32 gap-10 bg-cinza-11">
-    <div class="image relative text-left order-2">
-      <p class="preco-img relative bg-cinza-12 text-cinza-1 inline-block py-3 px-5 font-poppins text-2xl rounded-r-lg top-28"> <sup>R$</sup> 4.299</p>
-      <img src="../img/nimbus.png" alt="nimbus start">
+  <!-- Nimbus Stark -->
+  <section class="bicicletas grid lg:grid-cols-2 xxl:p-32 xl:p-24 lg:p-20 md:p-16 xs:p-10 gap-10 bg-cinza-11">
+    <div class="image relative text-right lg:min-w-[480px] lg:order-2">
+      <p class="preco-img relative bg-cinza-12 text-cinza-1 inline-block sm:py-3 xs:py-1 sm:px-5 xs:px-2 font-poppins sm:text-2xl xs:text-lg rounded-l-lg sm:top-28 lg:top-20 xs:top-16"> <sup>R$</sup> 4.299</p>
+      <img src="../img/nimbus.png" alt="bicicleta nimbus stark">
     </div>
 
-    <div class="info-bike grid gap-10 mt-14 order-1">
-      <h3 class="font-poppins font-bold text-4xl text-cinza-2 detalhe-decoracao">Nimbus Stark</h3>
-      <p class="font-roboto text-2xl text-cinza-6 leading-9">
+    <div class="info-bike grid gap-10 lg:mt-14 lg:order-1">
+      <h3 class="font-poppins font-bold xxl:text-4xl xl:text-3xl md:text-2xl xs:text-xl text-cinza-1 detalhe-decoracao">Nimbus Stark</h3>
+      <p class="font-roboto xxl:text-2xl lg:text-lg text-cinza-6 xxl:leading-9 lg:leading-6">
         A Nimbus Stark é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios, o que garante maior velocidade.A Nimbus Stark é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios, o que ga rante maior velocidade.
       </p>
       <div class="vantagens grid grid-cols-2">
         <ul class="content-between">
-          <li class="font-poppins text-2xl text-cinza-8 font-medium my-4">
-            <img class="inline-block me-4" src="../icons/eletrica 1.svg" alt="motor eletrico">Motor Elétrico 3.0</li>
-          <li class="font-poppins text-2xl text-cinza-8 font-medium my-4">
+          <li class="font-poppins xxl:text-2xl xl:text-xl md:text-lg text-cinza-4 font-medium xxl:my-4 md:my-2">
+            <img class="inline-block me-4" src="../icons/eletrica 1.svg" alt="motor eletrico">Motor Elétrico</li>
+          <li class="font-poppins xxl:text-2xl xl:text-xl md:text-lg text-cinza-4 font-medium xxl:my-4 md:my-2">
             <img class="inline-block me-4" src="../icons/rastreador 1.svg" alt="rastreador">Rastreador</li>
-          <li class="font-poppins text-2xl text-cinza-8 font-medium my-4">
-            <img class="inline-block me-4" src="../icons/velocidade 1.svg" alt="velocidade">60 km/h</li>
-          <li class="font-poppins text-2xl text-cinza-8 font-medium my-4">
+          <li class="font-poppins xxl:text-2xl xl:text-xl md:text-lg text-cinza-4 font-medium xxl:my-4 md:my-2">
+            <img class="inline-block me-4" src="../icons/velocidade 1.svg" alt="velocidade">40 km/h</li>
+          <li class="font-poppins xxl:text-2xl xl:text-xl md:text-lg text-cinza-4 font-medium xxl:my-4 md:my-2">
             <img class="inline-block me-4" src="../icons/carbono 1.svg" alt="fibra de carbono">Fibra de Carbono</li>
         </ul>
 
-        <a class="justify-self-end self-end my-10" href="./nimbus.html"><button class="bg-gradient-to-b from-primary-2 to-primary-4 w-56 h-14 rounded-md text-primary-5 font-poppins font-bold text-lg  uppercase " type="button">Mais sobre <img class="inline-block ms-3" src="../icons/seta 1.svg" alt=""></button></a> 
+        <a class="justify-self-end self-end" href="./nimbus.html"><button class="bg-gradient-to-b from-primary-2 to-primary-4 xxl:w-56 xxl:h-14
+           xs:w-48 xs:h-14 rounded-md text-primary-5 font-poppins font-bold text-lg self-end my-12 uppercase justify-self-end" type="button">Mais sobre <img class="inline-block ms-3" src="../icons/seta 1.svg" alt=""></button></a> 
       </div>
     </div>
   </section>
 
-  <section class="bicicletas grid grid-cols-2 pb-32 pt-20 px-32 gap-10 bg-cinza-12">
-    <div class="image relative text-right">
-      <p class="preco-img relative bg-cinza-12 text-cinza-1 inline-block py-3 px-5 font-poppins text-2xl rounded-l-lg top-28"> <sup>R$</sup> 1.899</p>
-      <img src="../img/nebula.png" alt="nebula cosmic">
+  <!-- Nebula Cosmic -->
+  <section class="bicicletas grid lg:grid-cols-2 xl:p-32 md:p-18 xs:p-10 gap-10 bg-cinza-12">
+    <div class="image relative text-right lg:min-w-[480px]">
+      <p class="preco-img relative bg-cinza-12 text-cinza-1 inline-block sm:py-3 xs:py-1 sm:px-5 xs:px-2 font-poppins sm:text-2xl xs:text-lg rounded-l-lg sm:top-28 lg:top-20 xs:top-16"> <sup>R$</sup> 1.899</p>
+      <img src="../img/nebula.png" alt="bicicleta nebula cosmic">
     </div>
 
-    <div class="info-bike grid gap-10 mt-14">
-      <h3 class="font-poppins font-bold text-4xl text-cinza-2 detalhe-decoracao">Nebula Cosmic</h3>
-      <p class="font-roboto text-2xl text-cinza-6 leading-9">
+    <div class="info-bike grid gap-10 lg:mt-14">
+      <h3 class="font-poppins font-bold xxl:text-4xl xl:text-3xl md:text-2xl xs:text-xl text-cinza-1 detalhe-decoracao">Nebula Cosmic</h3>
+      <p class="font-roboto xxl:text-2xl lg:text-lg text-cinza-6 xxl:leading-9 lg:leading-6">
         A Nebula Cosmic é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios, o que garante maior velocidade.A Nimbus Stark é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios, o que ga rante maior velocidade.
       </p>
       <div class="vantagens grid grid-cols-2">
         <ul class="content-between">
-          <li class="font-poppins text-2xl text-cinza-8 font-medium my-4">
-            <img class="inline-block me-4" src="../icons/eletrica 1.svg" alt="motor eletrico">Motor Elétrico 2.0</li>
-          <li class="font-poppins text-2xl text-cinza-8 font-medium my-4">
+          <li class="font-poppins xxl:text-2xl xl:text-xl md:text-lg text-cinza-8 font-medium xxl:my-4 md:my-2">
+            <img class="inline-block me-4" src="../icons/eletrica 1.svg" alt="motor eletrico">Motor Elétrico</li>
+          <li class="font-poppins xxl:text-2xl xl:text-xl md:text-lg text-cinza-8 font-medium xxl:my-4 md:my-2">
             <img class="inline-block me-4" src="../icons/rastreador 1.svg" alt="rastreador">Rastreador</li>
-          <li class="font-poppins text-2xl text-cinza-8 font-medium my-4">
-            <img class="inline-block me-4" src="../icons/velocidade 1.svg" alt="velocidade">50 km/h</li>
-          <li class="font-poppins text-2xl text-cinza-8 font-medium my-4">
+          <li class="font-poppins xxl:text-2xl xl:text-xl md:text-lg text-cinza-8 font-medium xxl:my-4 md:my-2">
+            <img class="inline-block me-4" src="../icons/velocidade 1.svg" alt="velocidade">25 km/h</li>
+          <li class="font-poppins xxl:text-2xl xl:text-xl md:text-lg text-cinza-8 font-medium xxl:my-4 md:my-2">
             <img class="inline-block me-4" src="../icons/carbono 1.svg" alt="fibra de carbono">Fibra de Carbono</li>
         </ul>
 
-        <a class="justify-self-end self-end" href="./nebula.html"><button class="bg-gradient-to-b from-primary-2 to-primary-4 w-56 h-14 rounded-md text-primary-5 font-poppins font-bold text-lg self-end my-12 uppercase justify-self-end" type="button">Mais sobre <img class="inline-block ms-3" src="../icons/seta 1.svg" alt=""></button></a> 
+        <a class="justify-self-end self-end" href="./magic.html"><button class="bg-gradient-to-b from-primary-2 to-primary-4 xxl:w-56 xxl:h-14
+           xs:w-48 xs:h-14 rounded-md text-primary-5 font-poppins font-bold text-lg self-end my-12 uppercase justify-self-end" type="button">Mais sobre <img class="inline-block ms-3" src="../icons/seta 1.svg" alt=""></button></a> 
       </div>
     </div>
   </section>
 
-  <footer class="bg-cinza-12 grid grid-cols-3 flex-none text-cinza-1">
-    <img class="text-white w-32 h-8 justify-self-center mt-24" src="../icons/logo.png" alt="logo">
+  <footer class="bg-cinza-12 grid lg:grid-cols-3 md:grid-cols-2 flex-none text-cinza-1">
+    <img class="text-white w-32 h-8 xs:ms-20 lg:justify-self-center mt-24" src="../icons/logo.png" alt="logo">
 
-    <div class="footer-contatos mt-24 flex flex-col gap-14 mb-20">
+    <div class="footer-contatos mt-24 flex flex-col gap-14 mb-20 xs:ms-20 sm:ms-0">
       <h3 class="font-roboto text-3xl text-cinza-1 font-bold">CONTATOS</h3>
       <div class="info-contatos grid content-between text-xl text-cinza-4 font-poppins h-52">
         <p>+55 11 99999-9999</p>
@@ -139,7 +145,7 @@
       </div>
     </div>
 
-    <div class="footer-informacoes mt-24 flex flex-col gap-14">
+    <div class="sm:col-start-2 lg:col-start-3 footer-informacoes mt-24 flex flex-col gap-14 xs:ms-20 sm:ms-0">
       <h3 class="font-roboto text-3xl text-cinza-1 font-bold">INFORMACOES</h3>
       <ul class="info-contatos grid content-between text-xl text-cinza-4 font-poppins h-52 w-52">
         <li><a href="./bicicletas.html">Bicicletas</a></li>
@@ -149,10 +155,10 @@
       </ul>
     </div>
 
-    <p class="col-span-full font-poppins text-xl py-10 w-9/12 m-auto text-cinza-6">
+    <p class="col-span-full font-poppins lg:text-xl md:text-lg xs:text-base lg:py-10 xs:pt-20 xs:pb-8 lg:w-9/12 xs:w-full m-auto text-cinza-6 text-center">
       Bikecraft © Alguns direitos reservados. Design da pagina desenvolvido nas aulas do curso de Ui Design , Origamid.
     </p>
 </footer>
-  
+
 </body>
 </html>
